@@ -1,0 +1,75 @@
+html {
+  font-size: calc(10px + 0.25vw);
+}
+
+body {
+  color: #14141c;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 2em;
+  color: #75758d;
+}
+
+h1 {
+  font-family: "Ovo", serif;
+  font-size: 2.7em;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Ovo", serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h3 {
+  color: #14141c;
+  letter-spacing: 5px;
+  font-size: 0.85em;
+}
+
+p {
+  color: #75758d;
+  line-height: 1.45em;
+}
+
+.shadow {
+  box-shadow: 0px 60px 60px -10px rgba(0, 0, 0, 0.07);
+  margin-top: calc(50vh);
+}
+
+.lh-1-75 {
+  line-height: 1.75em;
+}
+
+.case-study {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  transition: 0.5s linear;
+}
+
+.case-study-img {
+  transition: 1s ease-in-out;
+  width: 66%;
+}
+
+.case-study:hover .case-study-img {
+  margin-left: 66%;
+  width: 100%;
+  margin-top: -15%;
+}
+
+.case-study-text {
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+
+.case-study:hover .case-study-text {
+  margin-left: 150%;
+}
