@@ -55,6 +55,7 @@
 
 .g-2-5 {
   display: grid;
+  width: 100%;
   grid-gap: 0 3.9%;
   grid-auto-columns: 9.12%;
 }
@@ -125,8 +126,13 @@
 .text-right {
   text-align: right;
 }
+
 .m-top-2em {
   margin-top: 2em;
+}
+
+.m-bottom-4 {
+  padding-bottom: 6em;
 }
 
 .vertical-center {
@@ -140,4 +146,15 @@
 
 .m-0-0 {
   margin: 0;
+}
+
+.m-top-6 {
+  padding-top: 13em;
+}
+
+.m-bottom-1 {
+  padding-bottom: 0.7em;
+}
+.m-bottom-2 {
+  padding-bottom: 0.7em;
 }

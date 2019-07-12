@@ -36,28 +36,79 @@ function App() {
         {/* Case Studies */}
         <div class="shadow g-col-5-8 m-g-col-3-8 after-fold">
           <div class="case-study g-2-5">
-            <img class="g-row-1-4 g-col-1-5 case-study-img" src={tangerine} />
-
-            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text">AIRBNB</h3>
-            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text">
+            <div class="cta g-row-1-4 g-col-1-4">
+              <span>
+                See the <br />
+                case study
+              </span>
+            </div>
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
+            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
+              AIRBNB
+            </h3>
+            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
               Pet Payments
             </h2>
-            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text">
+            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
               Providing the right security for Airbnb hosts who allow guests
               travelling with pets.
             </p>
           </div>
         </div>
 
+        <div class="shadow g-col-5-8 m-g-col-3-8">
+          <div class="case-study g-2-5">
+            <div class="cta g-row-1-4 g-col-1-4">
+              <span>
+                See the <br />
+                case study
+              </span>
+            </div>
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
+            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
+              BRAINTREE
+            </h3>
+            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
+              Hosted Fields Landing Page
+            </h2>
+            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
+              Illustrating the value of Hosted Fields within the Braintree
+              developer docs.
+            </p>
+          </div>
+        </div>
+
+        <div class="shadow g-col-5-8 m-g-col-3-8">
+          <div class="case-study g-2-5">
+            <div class="cta g-row-1-4 g-col-1-4">
+              <span>
+                See the <br />
+                case study
+              </span>
+            </div>
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
+            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
+              NU KNIGHT LAB
+            </h3>
+            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
+              Fact-Check Flow
+            </h2>
+            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
+              Allowing journalists in small newsrooms to fact-check stories
+              within Google Docs.
+            </p>
+          </div>
+        </div>
+
         {/* Footer */}
         <div class="g-2-2 g-col-5-8 m-g-col-3-8">
-          <p class="g-col-1-8 m-top-2em">copyright 2019</p>
+          <p class="g-col-1-8 m-top-2em">© 2019</p>
           <p class="g-col-1-4 m-0-0">Let's chat!</p>
           <p class="g-col-1-4 m-0">thomastli@u.northwestern.edu</p>
           <p class="g-col-5-4 m-0 text-right m-g-col-1-8 m-text-left">
             <a href="https://linkedin.com/in/thomastli">LinkedIn</a>
             <a href="https://twitter.com/thmstli">Twitter</a>
-            <a href="https://medium.com/@thomastli"> Medium</a>
+            <a href="https://medium.com/@thomastli">Medium</a>
           </p>
         </div>
       </div>
