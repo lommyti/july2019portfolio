@@ -132,7 +132,7 @@
 }
 
 .m-bottom-4 {
-  padding-bottom: 6em;
+  padding-bottom: 0em;
 }
 
 .vertical-center {
@@ -149,7 +149,7 @@
 }
 
 .m-top-6 {
-  padding-top: 13em;
+  padding-top: calc(50% - 2em);
 }
 
 .m-bottom-1 {

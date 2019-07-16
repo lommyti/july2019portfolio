@@ -1,6 +1,10 @@
 import React from "react";
 import logo from "./logo.svg";
 import tangerine from "./img/tangerine.png";
+import braintree from "./img/braintree.png";
+import airbnb from "./img/airbnb.png";
+import resume from "./Li_Thomas_Resume.pdf";
+
 import "./App.css";
 import "./Layout.css";
 import "./Mobile.css";
@@ -13,7 +17,9 @@ function App() {
         <div class="g-col-13-4 m-g-col-9-4 text-center m-top-2em">
           <a href="/">Home</a>
           <a href="/">About</a>
-          <a href="/">Resume</a>
+          <a href={resume} target="_blank">
+            Resume
+          </a>
         </div>
 
         {/* Header */}
@@ -42,7 +48,7 @@ function App() {
                 case study
               </span>
             </div>
-            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={airbnb} />
             <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
               AIRBNB
             </h3>
@@ -64,7 +70,7 @@ function App() {
                 case study
               </span>
             </div>
-            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={braintree} />
             <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
               BRAINTREE
             </h3>
