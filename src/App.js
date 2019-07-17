@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import tangerine from "./img/tangerine.png";
 import braintree from "./img/braintree.png";
 import airbnb from "./img/airbnb.png";
+import factCheck from "./img/fact-check.png";
+
 import resume from "./Li_Thomas_Resume.pdf";
 
 import "./App.css";
@@ -49,16 +51,18 @@ function App() {
               </span>
             </div>
             <img class="g-row-1-4 g-col-1-4 case-study-img" src={airbnb} />
-            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
-              AIRBNB
-            </h3>
-            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
-              Pet Payments
-            </h2>
-            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
-              Providing the right security for Airbnb hosts who allow guests
-              travelling with pets.
-            </p>
+            <div class="g-col-6-3 v-align-mid">
+              <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-bottom-1">
+                AIRBNB
+              </h3>
+              <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
+                Pet Payments
+              </h2>
+              <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text">
+                Providing the right security for Airbnb hosts who allow guests
+                travelling with pets.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -71,16 +75,18 @@ function App() {
               </span>
             </div>
             <img class="g-row-1-4 g-col-1-4 case-study-img" src={braintree} />
-            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
-              BRAINTREE
-            </h3>
-            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
-              Hosted Fields Landing Page
-            </h2>
-            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
-              Illustrating the value of Hosted Fields within the Braintree
-              developer docs.
-            </p>
+            <div class="g-col-6-3 v-align-mid">
+              <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-bottom-1">
+                BRAINTREE
+              </h3>
+              <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
+                Hosted Fields Landing Page
+              </h2>
+              <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text">
+                Illustrating the value of Hosted Fields within the Braintree
+                developer docs.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -92,17 +98,19 @@ function App() {
                 case study
               </span>
             </div>
-            <img class="g-row-1-4 g-col-1-4 case-study-img" src={tangerine} />
-            <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-top-6 m-bottom-1">
-              NU KNIGHT LAB
-            </h3>
-            <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
-              Fact-Check Flow
-            </h2>
-            <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text m-bottom-4">
-              Allowing journalists in small newsrooms to fact-check stories
-              within Google Docs.
-            </p>
+            <img class="g-row-1-4 g-col-1-4 case-study-img" src={factCheck} />
+            <div class="g-col-6-3 v-align-mid">
+              <h3 class="g-col-6-3 m-0-0 g-row-1-1 case-study-text m-bottom-1">
+                NU KNIGHT LAB
+              </h3>
+              <h2 class="g-col-6-3 m-0-0 g-row-2-1 case-study-text m-bottom-2">
+                Fact-Check Flow
+              </h2>
+              <p class="g-col-6-3 m-0-0 g-row-3-1 case-study-text">
+                Allowing journalists in small newsrooms to fact-check stories
+                within Google Docs.
+              </p>
+            </div>
           </div>
         </div>
 

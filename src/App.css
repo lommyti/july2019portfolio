@@ -57,7 +57,10 @@ p {
   margin-bottom: calc(15vh);
   border-radius: 8px;
   box-sizing: border-box;
-  transition: 0.7s ease-in-out;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
 }
 
 .lh-1-75 {
@@ -71,7 +74,10 @@ p {
 }
 
 .case-study-img {
-  transition: 0.7s ease-in-out;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
   width: 100%;
 }
 
@@ -86,13 +92,14 @@ p {
 
 .shadow:hover .case-study-img {
   margin-left: 74%;
-  width: 135%;
-  margin-top: -17.5%;
 }
 
 .case-study-text {
   width: 100%;
-  transition: 0.7s ease-in-out;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
 }
 
 .case-study:hover .case-study-text {
@@ -104,7 +111,10 @@ p {
   width: 75%;
   background: #ebebeb;
   height: 100%;
-  transition: 0.7s ease-in-out;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
   text-align: left;
   padding: 3em;
   vertical-align: bottom;
@@ -124,8 +134,16 @@ p {
 
 .case-study:hover .cta {
   margin-left: 0%;
-  transition: 0.7s ease-in-out;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
 }
 
 .cta span:hover {
+}
+
+.v-align-mid {
+  margin-top: 50%;
+  transform: translateY(-22%);
 }
