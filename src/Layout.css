@@ -99,6 +99,10 @@
   margin-bottom: 4em;
 }
 
+.g-col-1-8-1 {
+  grid-column: 1 / span 8;
+}
+
 .g-col-2-7 {
   grid-column: 2 / span 7;
 }
@@ -152,6 +156,10 @@
   padding-top: calc(50% - 2em);
 }
 
+.m-top-0 {
+  margin-top: 0;
+}
+
 .m-bottom-1 {
   padding-bottom: 0.7em;
 }
@@ -161,4 +169,28 @@
 
 .g-col-5-3 {
   grid-column: 8 / span 3;
+}
+
+.g-col-3-6 {
+  grid-column: 3 / span 6;
+}
+
+.g-col-1-2 {
+  grid-column: 1 / span 2;
+}
+
+.padding-5 {
+  padding: 5em;
+  box-sizing: border-box;
+}
+
+.img-w-3 {
+  width: 385%;
+  margin-top: -9em;
+  border-radius: 12px;
+}
+
+.m-b-1 {
+  margin-bottom: 0.1em;
+  padding-bottom: 0;
 }
