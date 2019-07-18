@@ -83,6 +83,7 @@ p {
 
 .shadow:hover {
   cursor: pointer;
+  transform: scale(1.08);
   box-shadow: 0px 30px 45px -5px rgba(0, 0, 0, 0.19);
 }
 
@@ -104,6 +105,20 @@ p {
 
 .case-study:hover .case-study-text {
   margin-left: 130%;
+}
+
+.pattern {
+  width: 50%;
+  background: #ebebeb;
+  margin-left: 50%;
+  height: 100%;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
+  text-align: left;
+  padding: 3em;
+  box-sizing: border-box;
 }
 
 .cta {
@@ -138,6 +153,15 @@ p {
   -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
   -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
   transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
+}
+
+.case-study:hover .pattern {
+  margin-left: -22%;
+  -webkit-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -moz-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  -o-transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1);
+  transition: all 900ms cubic-bezier(0.21, 0.535, 0.565, 1); /* custom */
+  transition-delay: 0.5s;
 }
 
 .cta span:hover {

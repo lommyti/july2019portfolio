@@ -63,6 +63,7 @@ function App() {
                 travelling with pets.
               </p>
             </div>
+            <div class="pattern g-row-1-4 g-col-5-3"></div>
           </div>
         </div>
 
@@ -87,6 +88,7 @@ function App() {
                 developer docs.
               </p>
             </div>
+            <div class="pattern g-row-1-4 g-col-5-3"></div>
           </div>
         </div>
 
@@ -111,6 +113,7 @@ function App() {
                 within Google Docs.
               </p>
             </div>
+            <div class="pattern g-row-1-4 g-col-5-3"></div>
           </div>
         </div>
 
