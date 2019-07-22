@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import me from "./img/me.jpg";
 import resume from "./Li_Thomas_Resume.pdf";
+import braintree from "./img/braintree.png";
 
 export default class About extends Component {
   render() {
@@ -25,22 +26,46 @@ export default class About extends Component {
 
           {/* Header */}
           <div class="g-2-2 g-col-5-8 m-g-col-3-8 vertical-center">
-            <img class="g-row-1-8 img-w-3 m-half-h1" src={me} />
+            <img class="g-row-1-8 img-w-3 m-half-h1" src={braintree} />
             <div class="g-col-1-8-1">
-              <h1 class="m-h1">Pet Payments</h1>
+              <h1 class="m-h1">Hosted Fields Landing Page</h1>
             </div>
-            <p class="g-col-1-2 lh-1-75">
-              <h3 class="m-top-0 m-b-1">CURRENTLY:</h3>
-              <p class="m-top-0">Chicago</p>
-              <h3 class="m-b-1">BEFORE:</h3>
-              <p class="m-top-0">Long Island, NY</p>
+            <h2>Context</h2>
+            <p class="g-col-1-6 lh-1-75 bt">
+              The Hosted Fields product is a part of Braintree’s offerings that
+              has specific use cases: it’s most useful to merchants who are
+              looking for highly customizable payment forms to use for desktop
+              and mobile websites. However, existing Hosted Fields content in
+              the developer docs lacked clarity and immediately exposed users to
+              highly technical integration details, leading to a lack of
+              interest in the product.
             </p>
-            <p class="g-col-3-6 lh-1-75">
-              I’m a fourth-year student, finishing up my degree in communication
-              studies, computer science, & human-centered design at Northwestern
-              University; a less-boring description of me would probably mention
-              my affinity for toucans, oat milk cortados, BoJack Horseman, &
-              geometric pie crust designs.
+            <p class="g-col-1-6 lh-1-75 bt">
+              By creating a new landing page focusing on demonstrating unique
+              product value and slowly incorporating technical jargon, I lowered
+              the bounce rate for users reading about Hosted Fields to 9%,
+              beating the site avg. by almost 40%.
+            </p>
+            <br /> <br />
+            <br />
+            <br />
+            <br />
+            <h2 class="g-col-1-6">My Role</h2>
+            <p class="g-col-1-6 lh-1-75 bt">
+              I drove this project while collaborating with content strategists
+              from the Documentation team as well as designers and developers
+              from the Sites team. To do this, I went through several iterations
+              of writing new copy, created new visuals, and shipped an MVP
+              version of the page built with HTML/CSS.
+            </p>
+            <hr />
+            <h2 class="g-col-1-6">Approach</h2>
+            <p class="g-col-1-6 lh-1-75 bt">
+              I drove this project while collaborating with content strategists
+              from the Documentation team as well as designers and developers
+              from the Sites team. To do this, I went through several iterations
+              of writing new copy, created new visuals, and shipped an MVP
+              version of the page built with HTML/CSS.
             </p>
           </div>
 

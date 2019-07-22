@@ -9,18 +9,28 @@ export default class About extends Component {
       <div className="App">
         <div class="g-16 m-g-12">
           {/* Link Header */}
-          <div class="g-col-13-4 m-g-col-9-4 text-center m-top-2em">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href={resume} target="_blank">
-              Resume
+          <div class="g-col-13-4 m-g-col-9-4 text-right m-top-2em pos-absolute ">
+            <a href="/" class="pill-link">
+              <i class="material-icons pill-icon">home</i> Home
+            </a>
+            <br />
+            <a href="/about" class="pill-link">
+              <i class="material-icons pill-icon">person</i> About
+            </a>
+            <br />
+            <a href={resume} target="_blank" class="pill-link">
+              <i class="material-icons pill-icon">description</i> Resume
             </a>
           </div>
+
           {/* Header */}
           <div class="g-2-2 g-col-5-8 m-g-col-3-8 vertical-center">
             <img class="g-row-1-3 img-w-3 m-half-h1" src={me} />
             <div class="g-col-1-8-1">
-              <h1 class="m-h1">Call me Tommy.</h1>
+              <h1 class="m-h1">
+                I'm Tommy, and the best interview I've ever had was about an
+                orange.
+              </h1>
             </div>
             <p class="g-col-1-2 lh-1-75">
               <h3 class="m-top-0 m-b-1">CURRENTLY:</h3>

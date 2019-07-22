@@ -13,17 +13,21 @@ export default class Home extends Component {
       <div className="App">
         <div class="g-16 m-g-12">
           {/* Link Header */}
-          <div class="g-col-13-4 m-g-col-9-4 text-center m-top-2em">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href={resume} target="_blank">
-              Resume
+          <div class=" text-right m-top-2em pos-absolute ">
+            <a href="/" class="pill-link">
+              <i class="material-icons pill-icon">home</i> Home
+            </a>
+            <br />
+            <a href="/about" class="pill-link">
+              <i class="material-icons pill-icon">person</i> About
+            </a>
+            <br />
+            <a href={resume} target="_blank" class="pill-link">
+              <i class="material-icons pill-icon">description</i> Resume
             </a>
           </div>
-
           {/* Header */}
-          <div class="g-2-2 g-col-5-8 m-g-col-3-8 vertical-center">
-            <img class="g-row-1-3 img-h-h1 m-half-h1" src={tangerine} />
+          <div class=" g-col-5-8 m-g-col-3-8 vertical-center">
             <div class="g-col-2-7">
               <h1 class="m-h1">Hey! I'm Tommy, a product designer.</h1>
             </div>
@@ -36,13 +40,13 @@ export default class Home extends Component {
               computer science, & human-centered design from Northwestern
               University.
             </p>
-          </div>
+          </div>{" "}
+          {/*
           <div class="cta-header">
             <h3 class="case-study-text">SEE MY PORTFOLIO</h3>
 
-            <h3 class="case-study-text">↓ ↓ ↓</h3>
-          </div>
-
+            <h3 class=" inside-circle">↓</h3>
+          </div>*/}
           {/* Case Studies */}
           <div class="shadow g-col-5-8 m-g-col-3-8 after-fold">
             <Link to="/airbnb">
@@ -70,7 +74,6 @@ export default class Home extends Component {
               </div>
             </Link>
           </div>
-
           <div class="shadow g-col-5-8 m-g-col-3-8">
             <div class="case-study g-2-5">
               <div class="cta g-row-1-4 g-col-1-4">
@@ -95,7 +98,6 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-
           <div class="shadow g-col-5-8 m-g-col-3-8">
             <div class="case-study g-2-5">
               <div class="cta g-row-1-4 g-col-1-4">
@@ -120,16 +122,21 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-
           {/* Footer */}
           <div class="g-2-2 g-col-5-8 m-g-col-3-8">
             <p class="g-col-1-8 m-top-2em">© 2019</p>
             <p class="g-col-1-4 m-0-0">Let's chat!</p>
             <p class="g-col-1-4 m-0">thomastli@u.northwestern.edu</p>
             <p class="g-col-5-4 m-0 text-right m-g-col-1-8 m-text-left">
-              <a href="https://linkedin.com/in/thomastli">LinkedIn</a>
-              <a href="https://twitter.com/thmstli">Twitter</a>
-              <a href="https://medium.com/@thomastli">Medium</a>
+              <a href="https://linkedin.com/in/thomastli" class="text-link">
+                LinkedIn
+              </a>
+              <a href="https://twitter.com/thmstli" class="text-link">
+                Twitter
+              </a>
+              <a href="https://medium.com/@thomastli" class="text-link">
+                Medium
+              </a>
             </p>
           </div>
         </div>

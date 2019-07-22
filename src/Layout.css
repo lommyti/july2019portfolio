@@ -89,6 +89,10 @@
   grid-column: 1 / span 5;
 }
 
+.g-col-1-6 {
+  grid-column: 1 / span 6;
+}
+
 .g-col-5-4 {
   grid-column: 5 / span 4;
 }
@@ -105,6 +109,10 @@
 
 .g-col-2-7 {
   grid-column: 2 / span 7;
+}
+
+.g-col-5-8 {
+  grid-column: 5 / span 8;
 }
 
 .g-col-5-8 {
@@ -193,4 +201,19 @@
 .m-b-1 {
   margin-bottom: 0.1em;
   padding-bottom: 0;
+}
+
+.pos-absolute {
+  position: fixed;
+  left: 0%;
+  width: 23%;
+  height: 100%;
+  border-right: 1px solid #efefef;
+  margin-top: 0;
+  padding: 3em;
+  box-sizing: border-box;
+}
+
+.g-col-0-4 {
+  grid-column: 0 / span 4;
 }

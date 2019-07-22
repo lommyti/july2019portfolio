@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import PetPayment from "./PetPayments";
+import Braintree from "./Braintree";
 
 import resume from "./Li_Thomas_Resume.pdf";
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/airbnb" exact component={PetPayment} />
+      <Route path="/braintree" exact component={Braintree} />
     </Router>
   );
 }
